@@ -8,7 +8,7 @@ For example for a sequence of notes such as 'C4', 'G4', 'F4', 'E4', 'C5'
 
 The list of frequencies played is as follows,
 
-The frequencies of notes in the C4 minor pentatonic scale in ascending order\
+The frequencies in Hz of notes in the C4 minor pentatonic scale in ascending order\
 261.6256\
 311.127\
 349.2282\
@@ -16,7 +16,7 @@ The frequencies of notes in the C4 minor pentatonic scale in ascending order\
 466.1638\
 523.2511
 
-The frequencies of notes in the C4 minor pentatonic scale in descending order\
+The frequencies in Hz of notes in the C4 minor pentatonic scale in descending order\
 523.2511\
 466.1638\
 391.9954\
