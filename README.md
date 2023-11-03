@@ -9,7 +9,7 @@ For example for a sequence of notes such as 'C4', 'G4', 'F4', 'E4', 'C5'
 The list of frequencies played is as follows,
 
 <pre>
-The frequencies in Hz of notes in the Cs4 minor blues scale in ascending order
+The frequencies in Hz of notes with Cs4 as root note minor blues scale in ascending order
 Cs4  : 277.1826
 E4   : 329.6276
 Fs4  : 369.9944
@@ -18,7 +18,7 @@ Gs4  : 415.3047
 B4   : 493.8833
 Cs5  : 554.3653
 
-The frequencies in Hz of notes in the Cs4 minor blues scale in descending order
+The frequencies in Hz of notes with Cs4 as root note minor blues scale in descending order
 Cs5  : 554.3653
 B4   : 493.8833
 Gs4  : 415.3047
@@ -27,7 +27,7 @@ Fs4  : 369.9944
 E4   : 329.6276
 Cs4  : 277.1826
 ___________
-The frequencies in Hz of notes in the Gs4 minor blues scale in ascending order
+The frequencies in Hz of notes with Gs4 as root note minor blues scale in ascending order
 Gs4  : 415.3047
 B4   : 493.8833
 Cs5  : 554.3653
@@ -36,7 +36,7 @@ Ds5  : 622.254
 Fs5  : 739.9888
 Gs5  : 830.6094
 
-The frequencies in Hz of notes in the Gs4 minor blues scale in descending order
+The frequencies in Hz of notes with Gs4 as root note minor blues scale in descending order
 Gs5  : 830.6094
 Fs5  : 739.9888
 Ds5  : 622.254
@@ -45,7 +45,7 @@ Cs5  : 554.3653
 B4   : 493.8833
 Gs4  : 415.3047
 ___________
-The frequencies in Hz of notes in the Fs4 minor blues scale in ascending order
+The frequencies in Hz of notes with Fs4 as root note minor blues scale in ascending order
 Fs4  : 369.9944
 A4   : 440.0
 B4   : 493.8833
@@ -54,7 +54,7 @@ Cs5  : 554.3653
 E5   : 659.2551
 Fs5  : 739.9888
 
-The frequencies in Hz of notes in the Fs4 minor blues scale in descending order
+The frequencies in Hz of notes with Fs4 as root note minor blues scale in descending order
 Fs5  : 739.9888
 E5   : 659.2551
 Cs5  : 554.3653
@@ -63,7 +63,7 @@ B4   : 493.8833
 A4   : 440.0
 Fs4  : 369.9944
 ___________
-The frequencies in Hz of notes in the E4 minor blues scale in ascending order
+The frequencies in Hz of notes with E4 as root note minor blues scale in ascending order
 E4   : 329.6276
 G4   : 391.9954
 A4   : 440.0
@@ -72,7 +72,7 @@ B4   : 493.8833
 D5   : 587.3295
 E5   : 659.2551
 
-The frequencies in Hz of notes in the E4 minor blues scale in descending order
+The frequencies in Hz of notes with E4 as root note minor blues scale in descending order
 E5   : 659.2551
 D5   : 587.3295
 B4   : 493.8833
@@ -81,7 +81,7 @@ A4   : 440.0
 G4   : 391.9954
 E4   : 329.6276
 ___________
-The frequencies in Hz of notes in the C5 minor blues scale in ascending order
+The frequencies in Hz of notes with C5 as root note minor blues scale in ascending order
 C5   : 523.2511
 Ds5  : 622.254
 F5   : 698.4565
@@ -90,7 +90,7 @@ G5   : 783.9909
 As5  : 932.3275
 C6   : 1046.502
 
-The frequencies in Hz of notes in the C5 minor blues scale in descending order
+The frequencies in Hz of notes with C5 as root note minor blues scale in descending order
 C6   : 1046.502
 As5  : 932.3275
 G5   : 783.9909
