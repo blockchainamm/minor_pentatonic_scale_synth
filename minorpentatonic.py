@@ -77,7 +77,10 @@ def load_notes(notestep, notestep1, notescale):
     print(f'The frequencies of notes in the {notescale} minor pentatonic scale in ascending order')
     for note in notes_interval: 
         # print the frequency ascending notes of the scale        
-        print(rev_freq[notestep])
+        if len(note_name[notestep]) == 2:
+            print(f'{note_name[notestep]}   : {rev_freq[notestep]}')
+        elif len(note_name[notestep]) == 3:
+            print(f'{note_name[notestep]}  : {rev_freq[notestep]}') 
         
         # Call function to generate the equivalent tone for the given frequency
         tone = np.array(generate_sample(rev_freq[notestep], 1, 1.0), dtype=np.int16)    
@@ -98,7 +101,10 @@ def load_notes(notestep, notestep1, notescale):
         tones_rev.append(tone1)
 
         # print the frequency descending notes of the scale        
-        print(rev_freq[notestep1])
+        if len(note_name[notestep1]) == 2:
+            print(f'{note_name[notestep1]}   : {rev_freq[notestep1]}')
+        elif len(note_name[notestep1]) == 3:
+            print(f'{note_name[notestep1]}  : {rev_freq[notestep1]}')
 
     # Return list of frequencies in the ascending and descending notes of the minor pentatonic scale    
     return tones_fwd, tones_rev
@@ -161,7 +167,11 @@ for notescale in scale_list:
 
     notelist = df_filtered['FrequencyHz'].values.tolist()
 
+    notename = df_filtered['Note'].values.tolist()
+
     rev_freq = notelist[::-1] 
+
+    note_name = notename[::-1] 
 
     tones_fwd, tones_rev = load_notes(notestep, notestep1, notescale)
 
